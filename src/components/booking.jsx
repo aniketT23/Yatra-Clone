@@ -96,6 +96,7 @@ const Book = styled.div`
 const Travel = styled.div``;
 
 export function Booking({ value }) {
+	console.log(value);
 	const [userData, setUserData] = useState({
 		name: "",
 		email: "",

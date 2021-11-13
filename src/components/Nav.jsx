@@ -18,13 +18,16 @@ height:80%;
 object-fit:contain;
 `
 function Nav(){
-    return(
-        <Div>
-         <Img src="https://upload.wikimedia.org/wikipedia/en/e/e4/Yatra_company_logo.png" alt="Yatra_logo"></Img>
-         <span>Hi! Balkishan</span>
+    var userData = JSON.parse(localStorage.getItem("userData"));
 
-        </Div>
-    )
+		return (
+			<Div>
+				<Img
+					src='https://upload.wikimedia.org/wikipedia/en/e/e4/Yatra_company_logo.png'
+					alt='Yatra_logo'></Img>
+				<span>Hi {userData.name}</span>
+			</Div>
+		);
 }
 
 export {Nav}

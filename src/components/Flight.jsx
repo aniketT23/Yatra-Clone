@@ -34,7 +34,7 @@ function Flight() {
 		};
 		setData(arr);
 		console.log(data);
-		// localStorage.setItem("testObject", JSON.stringify(arr));
+		localStorage.setItem("travel", JSON.stringify(arr));
 	}
 	function handleDate(e) {
 		setDate(e.target.value);

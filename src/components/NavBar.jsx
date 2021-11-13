@@ -82,10 +82,15 @@ function Navbar() {
 				</div>
 				<div id='sideBar'>
 					<div id='sideho'>
-						<div id='sidetext1' className='sidetext'>
-							{!data ? "My Account" : `Hi ${data.fname}`}
+						<div
+							id='sidetext1'
+							className='sidetext'
+							onClick={() => {
+								window.location.href = "/login";
+							}}>
+							{!data ? "Login" : `Hi ${data.fname}`}
 						</div>
-						<Arrow className='ar' />
+						{/* <Arrow className='ar' /> */}
 					</div>
 
 					<div id='sideho1'>
@@ -98,7 +103,8 @@ function Navbar() {
 					<div>
 						<div className='sidetext'>Yatra For Business</div>
 					</div>
-					<div id='acctext'>
+
+					{/* <div id='acctext'>
 						<div className='fl'>
 							<img
 								alt=''
@@ -147,7 +153,7 @@ function Navbar() {
 								Yatra For Travel Agent
 							</div>
 						</div>
-					</div>
+					</div> */}
 					<div id='sup'>
 						<div>
 							<div className='ri'>

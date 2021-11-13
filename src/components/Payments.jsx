@@ -78,6 +78,8 @@ const D2 = styled.div`
 `;
 
 function Paymentsdiv({ data }) {
+	console.log(data);
+	var travel = JSON.parse(localStorage.getItem("travel"));
 	var details = JSON.parse(localStorage.getItem("Details"));
 	var userData = JSON.parse(localStorage.getItem("userData"));
 	return (
@@ -110,22 +112,22 @@ function Paymentsdiv({ data }) {
 				<div className='summ'>Summary</div>
 				<Div>
 					<span>
-						<b>{data.from}</b>
+						<b>{travel.from}</b>
 					</span>
 					<span>
 						<i class='fas fa-plane'></i>
 					</span>
 					<span>
-						<b>{data.to}</b>
+						<b>{travel.to}</b>
 					</span>
 				</Div>
 
 				<Div3>
 					<span>
-						{data.date} | {details.tfrom}
+						{travel.date} | {details.tfrom}
 					</span>
 					<span>
-						{data.date} | {details.tto}
+						{travel.date} | {details.tto}
 					</span>
 				</Div3>
 			</D1>

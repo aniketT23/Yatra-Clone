@@ -115,9 +115,9 @@
 .sidetext:hover{
     color: red;
 }
-#sideho:hover~#acctext{
+/* #sideho:hover~#acctext{
     display: block;
-}
+} */
 #acctext{
     display: none;
     width: 250px;

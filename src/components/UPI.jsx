@@ -44,7 +44,16 @@ const Div = styled.div`
 		cursor: pointer;
 	}
 `;
-const LinkStyle = {};
+const LinkStyle = {
+	textDecoration: "none",
+	color: "white",
+	background: "red",
+	padding: "13px 10px 10px 10px",
+	fontSize: "larger",
+	marginBottom: "1%",
+	justifyContent: "center",
+};
+
 function UPI() {
 	var details = JSON.parse(localStorage.getItem("Details"));
 	return (
@@ -54,7 +63,9 @@ function UPI() {
 			<input type='text' />
 			<div>
 				<p>₹ {details.price + 300}</p>
-				<Link to='/success'>Pay Now</Link>
+				<Link to='/success' style={LinkStyle}>
+					Pay Now
+				</Link>
 			</div>
 		</Div>
 	);

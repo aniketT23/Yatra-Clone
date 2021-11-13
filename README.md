@@ -45,6 +45,19 @@ pic link
  
  And my other team members were responsible for the login page, landing page, and Cart page and make the page look better.
  
+ # Team Members
+ 
+ * [Aniket Tiwari](https://github.com/aniketT23)
+
+ * [Ravinder Singh Negi](https://github.com/Ravinder2001)
+
+ * [Ramendra Vikram Singh Parihar](https://github.com/rv-vikram)
+
+ * [Mayank Diwakar]()
+
+ * [Balkishan Pal](https://github.com/Balkishan-Pal)
+
+ 
  # The outcome and important learning from the project:-
  
  This entire journey of making the project was awesome. We learned lots of things by applying to the real website and

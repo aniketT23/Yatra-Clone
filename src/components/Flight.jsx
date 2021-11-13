@@ -325,14 +325,15 @@ function Flight() {
 										<button id='btnre'>Check Your Refund</button>
 									</span>
 									<span>
-										<Link
-											to='/book'
+										<button
 											id='btnfl'
 											onClick={() => {
 												save(from, to, date, clas, passenger);
 											}}>
-											Search Flights
-										</Link>
+											<Link to='/book' id='sdf'>
+												Search Flights
+											</Link>
+										</button>
 									</span>
 								</div>
 							</div>

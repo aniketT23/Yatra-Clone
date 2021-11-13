@@ -211,14 +211,13 @@ function Side() {
 				<div style={{ clear: "both" }}>
 					{flight.map((e) => (
 						<div className='t'>
-							{/* <div className='line'></div>
+							<div className='line'></div>
 							<div className='frm'>{e.from}</div>
 							<div className='date'>{e.date}</div>
 							<div className='to'>{e.to}</div>
-							<br />
+
 							<div className='sta'>Starting From</div>
-							<div className='rup'>₹{e.rup}</div> */}
-							<div className='line'></div>
+							<div className='rup'>₹{e.rup}</div>
 						</div>
 					))}
 				</div>

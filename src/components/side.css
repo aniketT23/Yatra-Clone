@@ -19,7 +19,7 @@
     border-bottom: 2px solid blue;
 }
 .t{
-    width: 160px;
+    width: 170px;
     height: 190px;
     margin-top: 30px;
     border-radius: 10px;
@@ -33,37 +33,38 @@
 }
 .line{
     width: 2px;
-    height: 85px;
+    height: 70px;
     background-color: brown;
     float: left;
-    margin-left: 20px;
+    /* margin-left: 10px; */
     margin-top: 20px;
 }
 .frm{
     margin-top: 15px;
-    margin-left: 20px;
+    margin-left: 10px;
     font-weight: bolder;
     float: left;
 }
 .date{
-    margin-left:20px;
+    margin-left:10px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     float: left;
 }
 .to{
-margin-left: 20px;
-margin-top: 30px;
+margin-left: 70px;
+margin-top: 10px;
 font-weight: bolder;
 float: left;
 }
 .sta{
-    margin-top: 115px;
-    margin-left: 30px;
+    margin-top: 100px;
+    margin-left: 40px;
    clear: both;
    color: rgb(90, 89, 89);
 }
 .rup{
-    margin-left: 30px;
+    margin-top: 10px;
+    margin-left: 50px;
     font-size: 24px;
     color: red;
     font-weight: bolder;

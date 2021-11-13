@@ -144,7 +144,7 @@ function Book({ value }) {
 					</div>
 					<div id='filter'>
 						<div style={{ float: "left" }}>
-							<div style={{ marginLeft: "70px" }}>
+							<div style={{ marginLeft: "48px" }}>
 								<img
 									src='https://cdn0.iconfinder.com/data/icons/glyphpack/36/filter-512.png'
 									alt=''
@@ -152,7 +152,7 @@ function Book({ value }) {
 									style={{ marginTop: "5px" }}
 								/>
 							</div>
-							<div style={{ marginLeft: "62px", fontSize: "13px" }}>
+							<div style={{ marginLeft: "40px", fontSize: "13px" }}>
 								Filters
 							</div>
 						</div>
@@ -343,9 +343,11 @@ function Book({ value }) {
 													e.midd,
 												);
 											}}>
-											<Link className='farss' to='/flight'>
-												Book
-											</Link>
+											<button className='farss'>
+												<Link to='/flight' className='btt'>
+													Book
+												</Link>
+											</button>
 										</div>
 										<div style={{ clear: "both" }}></div>
 										<div className='li2'></div>

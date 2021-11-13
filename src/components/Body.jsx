@@ -10,7 +10,7 @@ export function Body({ display, handleDisplay, handleChange, number, signup, han
       <Welcome>Welcome to Yatra!</Welcome>
 
       {signup ? (<><Please>We just need a few more details to create your Yatra account</Please>
-        <SignupBox /></>) : (<><Please>Please Login/Register using your Email/Mobile to continue</Please><LoginBox
+        <SignupBox number={number} /></>) : (<><Please>Please Login/Register using your Email/Mobile to continue</Please><LoginBox
           handleDisplay={handleDisplay}
           handleChange={handleChange}
           number={number}

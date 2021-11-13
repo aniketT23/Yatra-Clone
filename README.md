@@ -19,15 +19,38 @@ So we had a problem statement that we have to create a clone of a website called
 
 we just have to add images
 
-### - Landing Page:- 
+##  Landing Page:- 
+
 
 This is the Landing page when the user enters the website for the first time this page will show up.
 
-pic link
+![2021-11-13 (1)](https://user-images.githubusercontent.com/46128997/141647014-4a4bf530-5b57-45d9-918f-4ca01b011f63.png)
 
-### - Signup page:-
 
-pic link
+
+##  Signup page:-
+
+
+![2021-11-13 (6)](https://user-images.githubusercontent.com/46128997/141647086-f22baf63-c815-4a2a-962d-f0be442aa63e.png)
+
+
+## Search Flight:-
+
+
+![2021-11-13 (2)](https://user-images.githubusercontent.com/46128997/141647062-17dbc147-ea9b-42a1-9f7c-f3191fbf23ee.png)
+
+
+## Book Flight:-
+
+
+![2021-11-13 (3)](https://user-images.githubusercontent.com/46128997/141647068-1e2fc67a-c8e0-41ce-859b-ed965182f0aa.png)
+
+
+## Payment:-
+
+
+![2021-11-13 (5)](https://user-images.githubusercontent.com/46128997/141647074-90f8248c-a088-4708-9b61-64e108e606cb.png)
+
 
  # How We divided the work in our Team member:-
  
@@ -45,6 +68,19 @@ pic link
  
  And my other team members were responsible for the login page, landing page, and Cart page and make the page look better.
  
+ # Team Members
+ 
+ * [Aniket Tiwari](https://github.com/aniketT23)
+
+ * [Ravinder Singh Negi](https://github.com/Ravinder2001)
+
+ * [Ramendra Vikram Singh Parihar](https://github.com/rv-vikram)
+
+ * [Mayank Diwakar](https://github.com/Mayank0303)
+
+ * [Balkishan Pal](https://github.com/Balkishan-Pal)
+
+ 
  # The outcome and important learning from the project:-
  
  This entire journey of making the project was awesome. We learned lots of things by applying to the real website and
@@ -55,3 +91,14 @@ pic link
  
  # Technology used:
  
+ ### HTML
+ 
+ ### CSS
+ 
+ ### JAVASCRIPT
+ 
+ ### REACT JS
+ 
+ ### EXPRESS JS
+ 
+ ### MongoDB

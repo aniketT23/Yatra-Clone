@@ -1,7 +1,7 @@
 /** @format */
 
 import "./App.css";
-import Navbar from "./components/NavBar";
+// import Navbar from "./components/NavBar";
 
 import Side from "./components/Side";
 import Flight from "./components/Flight";

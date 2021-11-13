@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Building the clone of the Yatra Website.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+###  Description
 
-## Available Scripts
+This project involves around online travel in India providing a 'best in class' customer experience with the goal  
 
-In the project directory, you can run:
+to be 'India's Travel Planner'.Through our website, www.yatra.com, More than 7 million customers have used one or 
 
-### `npm start`
+more of our comprehensive travel-related services,which include domestic and international air ticketing,hotel 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+bookings, homestays,holidays packages, bus ticketing, rail ticketing, activities and ancillary services.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+# What was our problem statement and how did We approach it:-
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+So we had a problem statement that we have to create a clone of a website called Yatra.com . Also, We can only use MERN stack. We were five members in our group.
 
-### `npm run build`
+# Some Snapshots of our project that we made:-
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+we just have to add images
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### - Landing Page:- 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This is the Landing page when the user enters the website for the first time this page will show up.
 
-### `npm run eject`
+pic link
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### - Signup page:-
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+pic link
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ # How We divided the work in our Team member:-
+ 
+ As we were five members in our team so it was very important to decide how we will approach the work so that
+ 
+ in the future we should not face any problem in merging the code, as well as the tasks, get divided into equal 
+ 
+ parts.So, on the first day, As a team leader, I made a git repository and everyone was told to make their separate 
+ 
+ git branch by cloning the repo and push their work there and when they feel that they have completed it.They can show
+ 
+ it to one of the members(team leader) and after the approval, they can merge their code to the main branch.I was mainly
+ 
+ responsible for making the Flight selection page and navigation bar and script part which are similar on all the pages.
+ 
+ And my other team members were responsible for the login page, landing page, and Cart page and make the page look better.
+ 
+ # The outcome and important learning from the project:-
+ 
+ This entire journey of making the project was awesome. We learned lots of things by applying to the real website and
+ 
+ it gave us a lot of confidence. Although we could have done more such as we could have added a timer and there were some
+ 
+ more functionalities that could have been done, yeah the time didn't permit us to go further. But we will surely improve it
+ 
+ # Technology used:
+ 

@@ -3,7 +3,7 @@ import { Flight } from './flights';
 import { Company } from './company';
 import { Info } from './info';
 import { Middle } from './middle';
-
+import { Total } from './total';
 const Body=styled.div`
 display:flex;
 /* border: 1px solid black; */
@@ -26,6 +26,10 @@ a{
 text-align:right; 
 font-size: 12px;
 text-decoration: none;
+}
+.flight{
+    margin-top: 2%;
+    margin-left: 60%;
 }
 `
 const Deaparture= styled.div`
@@ -81,6 +85,7 @@ div .btn{
 
 `
 const LeftEL=styled.div`
+display: flex;
 margin: auto;
 margin-top: 0px;
 min-width:25%;
@@ -101,7 +106,7 @@ export function Booking(){
         <Heading>
          
                 <h3>Review Your Bookings</h3>
-                <a href="#">Change Flight</a>
+                <a href="#" className="flight">Change Flight</a>
            
         </Heading>
        
@@ -163,8 +168,7 @@ export function Booking(){
             <Book>
                 <Travel>
                 <p>Conatct Details</p>
-                <input type="email" placeholder="Email ID" value=""/>
-                <input type="text" placeholder=" mobile Number"/>
+              
                 </Travel>
             </Book>
             <button className="btn">Proceed To Payment</button>
@@ -175,9 +179,13 @@ export function Booking(){
                     
                     <h3>Fare Details</h3>
                     <a href="#">View Fare Rules</a>
+                  
                 
             </Heading>
-
+            <Book>
+                <Total base="₹5244" fee="₹729" fare="₹5953" total="₹5963" cash="₹500">
+                </Total>
+                    </Book>
        </LeftEL>
 
    

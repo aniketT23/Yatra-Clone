@@ -11,7 +11,7 @@ more of our comprehensive travel-related services,which include domestic and int
 bookings, homestays,holidays packages, bus ticketing, rail ticketing, activities and ancillary services.
 
 
-# What was our problem statement and how did I approach it:-
+# What was our problem statement and how did We approach it:-
 
 So we had a problem statement that we have to create a clone of a website called Yatra.com . Also, We can only use MERN stack. We were five members in our group.
 

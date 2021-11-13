@@ -285,9 +285,13 @@ function Flight() {
 											Business
 										</div>
 										<div>
-											<Link id='btnd' to='/book'>
-												Check Flight
-											</Link>
+											<button id='btnd'>
+												<Link
+													to='/book'
+													style={{ textDecoration: "none", color: "white" }}>
+													Check Flight
+												</Link>
+											</button>
 										</div>
 									</div>
 								</div>

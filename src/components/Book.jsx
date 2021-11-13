@@ -135,7 +135,7 @@ function Book({ value }) {
 							<div className='fs'>Traveller(s),Class</div>
 							<div>
 								<div style={{ width: "230px" }} className='i'>
-									{pass} {clas}
+									{pass} Travellers {clas}
 								</div>
 							</div>
 						</div>

@@ -3,10 +3,14 @@ import styled from 'styled-components';
 const Detail= styled.div`
 p{
     margin: auto;
-    margin-left: 5%;
+    margin-left: 50px;
+}
+img{
+    margin-left: 0%;
 }
 a{
     text-decoration: none;
+ 
 }
 `
 export function Info({duration,meal,classs}){

@@ -16,10 +16,10 @@ margin-left: 2%;
     margin-left: 29%;
 }
 .price2{
-    margin-left: 35%;
+    margin-left: 36%;
 }
 .price3{
-    margin-left: 47%;
+    margin-left: 45%;
 }
 .price4{
     margin-left: 43%;
@@ -27,7 +27,11 @@ margin-left: 2%;
 }
 .amount{
     border: 1px solid rgba(80, 75, 75, 0.521);
+    font-weight:bold;
  background-color: rgb(226, 226, 226);
+}
+span{
+    color:#FFB300;
 }
 
 `

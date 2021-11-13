@@ -13,9 +13,8 @@ function App() {
     <Booking>
 
     </Booking>
-<Contact>
-  
-</Contact>
+
+     
     </div>
   );
 }

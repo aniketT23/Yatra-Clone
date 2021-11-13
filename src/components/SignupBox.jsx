@@ -38,7 +38,7 @@ export function SignupBox({ number }) {
 				</Arrow>
 				<Form onSubmit={handleSubmit}>
 					<label>MOBILE NUMBER</label>
-					<Input onChange={handleChange} value={number} />
+					<Input onChange={handleChange} disabled="disabled" value={number} />
 					<label>EMAIL ID</label>
 					<Input
 						onChange={handleChange}

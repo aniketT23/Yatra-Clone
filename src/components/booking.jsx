@@ -8,15 +8,19 @@ import { Info } from "./info";
 import { Middle } from "./middle";
 import { Total } from "./total";
 import { useState } from "react";
+import Nav from "./MainNav"
 const Body = styled.div`
 	display: flex;
 	/* border: 1px solid black; */
-	margin: auto;
+	margin:auto;
 	max-width: 100%;
-	margin-top: 5%;
 `;
 const Heading = styled.div`
 	display: flex;
+	.abc{
+		margin-left: 65%;
+		margin-top: 3%;
+	}
 	/* border: 1px solid blue; */
 	width: 100%;
 	h3 {
@@ -24,7 +28,8 @@ const Heading = styled.div`
 	}
 	a {
 		/* border: 2px solid brown; */
-		margin-left: 30%;
+		margin-left: 45%;
+		margin-top: 2%;
 		text-align: right;
 		font-size: 12px;
 		text-decoration: none;
@@ -32,6 +37,7 @@ const Heading = styled.div`
 `;
 const Deaparture = styled.div`
 	display: flex;
+	margin-top: 2%;
 	.dot {
 		margin: 2% 2%;
 		border-left: 1px dotted black;
@@ -46,6 +52,9 @@ const Deaparture = styled.div`
 `;
 const Inner = styled.div`
 	display: flex;
+	.mid{
+		margin-right: 5%;
+	}
 `;
 
 const Return = styled.div`
@@ -65,7 +74,7 @@ const Return = styled.div`
 const RightEl = styled.div`
 	display: flex;
 	flex-direction: column;
-	margin: auto;
+	margin: 5% auto;
 	min-width: 60%;
 	/* border: 1px solid red; */
 
@@ -82,8 +91,8 @@ const RightEl = styled.div`
 	}
 `;
 const LeftEL = styled.div`
-	margin: auto;
-	margin-top: 0px;
+	margin:  6.5% auto;
+	
 	min-width: 25%;
 	/* border: 1px solid blueviolet; */
 	flex-direction: column;
@@ -91,9 +100,20 @@ const LeftEL = styled.div`
 
 const Book = styled.div`
 	background-color: white;
+	border-radius: 6px;
 `;
 
-const Travel = styled.div``;
+const Travel = styled.div`
+p{
+	margin:auto 2%;
+	margin-top: 2%;
+	padding-top: 2%;
+}
+input{
+	margin: 2% 2%;
+	width: auto;
+	height: 20px;
+}`;
 
 export function Booking({ value }) {
 	console.log(value);
@@ -115,11 +135,13 @@ export function Booking({ value }) {
 	}
 	var details = JSON.parse(localStorage.getItem("Details"));
 	return (
+		<>
+		<Nav></Nav>
 		<Body style={{ backgroundColor: "rgb(226, 226, 226)" }}>
 			<RightEl>
 				<Heading>
 					<h3>Review Your Bookings</h3>
-					<a href='#'>Change Flight</a>
+					<a className="abc" href='#'>Change Flight</a>
 				</Heading>
 
 				<Book>
@@ -146,7 +168,7 @@ export function Booking({ value }) {
 									logo={details.logo}
 									date={details.date}
 									airport='Indra Gandhi,T-1D'></Flight>
-								<Info
+								<Info className="mid"
 									duration='1h 10m'
 									meal='No Meal Fare'
 									classs='Economy'></Info>
@@ -195,7 +217,7 @@ export function Booking({ value }) {
 						<div>
 							<Inner>
 								<Flight
-									name='Mumbai,In'
+									name={value.to}
 									time='13:50'
 									date='Tue,25 Nov 2021'
 									airport='Chatrapati Shivaji,T-2'></Flight>
@@ -204,24 +226,24 @@ export function Booking({ value }) {
 									meal='No Meal Fare'
 									classs='Economy'></Info>
 								<Flight
-									name='Jodhpur, IN'
-									time='15:10'
+									name={details.mid}
+									time={details.mida}
 									date='Thu, 25 Nov 2021'
 									airport='Jodhpur , T-1'></Flight>
 							</Inner>
 							<Middle></Middle>
 							<Inner>
 								<Flight
-									name='Jodhpur, IN'
-									time='13:05'
+									name={details.mid}
+									time={details.midd}
 									date='Fri, 26 Nov 2021'
 									airport='Jodhpur , T-1'></Flight>
 								<Info
-									duration='1h 10m'
+									duration='1h 45m'
 									meal='No Meal Fare'
 									classs='Economy'></Info>
 								<Flight
-									name='New Delhi, IN'
+									name={value.from}
 									time='14:20'
 									date='Fri, 26 Nov 2021'
 									airport='Indira Gandhi , T-1C'></Flight>
@@ -285,5 +307,6 @@ export function Booking({ value }) {
 				</Book>
 			</LeftEL>
 		</Body>
+		</>
 	);
 }

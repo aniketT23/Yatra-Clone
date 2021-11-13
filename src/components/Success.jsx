@@ -14,29 +14,31 @@ export function Success() {
 		setLoading(true);
 	}, 3000);
 	return (
-		<SuccessLay>
-			{loading ? (
-				<>
-					<Image>
-						<img
-							alt='Loading'
-							src='https://cdn.dribbble.com/users/147386/screenshots/5315437/success-tick-dribbble.gif'
-						/>
-					</Image>
-					<Text>Payment successful!</Text>
-				</>
-			) : (
-				<>
-					<Image>
-						<img
-							alt='Loading'
-							src='https://i.pinimg.com/originals/43/3b/6c/433b6c5336c72a21bcfd9db8d831562a.gif'
-						/>
-					</Image>
-					<Text>Please Wait... Processing Payment</Text>
-				</>
-			)}
-		</SuccessLay>
+		<Div>
+			<SuccessLay>
+				{loading ? (
+					<>
+						<Image>
+							<img
+								alt='Loading'
+								src='https://cdn.dribbble.com/users/147386/screenshots/5315437/success-tick-dribbble.gif'
+							/>
+						</Image>
+						<Text>Payment successful!</Text>
+					</>
+				) : (
+					<>
+						<Image>
+							<img
+								alt='Loading'
+								src='https://i.pinimg.com/originals/43/3b/6c/433b6c5336c72a21bcfd9db8d831562a.gif'
+							/>
+						</Image>
+						<Text>Please Wait... Processing Payment</Text>
+					</>
+				)}
+			</SuccessLay>
+		</Div>
 	);
 }
 
@@ -58,4 +60,11 @@ const Image = styled.div`
 const Text = styled.div`
 	font-family: "Open Sans", sans-serif;
 	text-align: center;
+`;
+
+const Div = styled.div`
+	position:fixed;
+	width:100%;
+	height:100%;
+	background:white;
 `;

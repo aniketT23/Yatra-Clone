@@ -8,7 +8,7 @@ import Book from "./Book";
 import Navbar from "./NavBar";
 import Nav from "./MainNav";
 import { Booking } from "./booking";
-import Success from "./Success";
+import { Success } from "./Success";
 import Try from "./Try";
 import Side from "./Side";
 import MainPayment from "./PayM";
